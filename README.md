@@ -18,7 +18,7 @@ Bagi pengguna android dapat menggunakan termux tetapi **hindari instalasi dari G
 
 Dan lanjutkan menjalankan perintah selanjutnya.
 
-# Installation
+# Install from source
 
 1. `git clone https://github.com/vermaysha/bima-plus.git`
 2. `cd bima-plus`
@@ -32,6 +32,10 @@ Dan lanjutkan menjalankan perintah selanjutnya.
 2. `npm ci`
 3. `npm run build`
 4. `npm run start`
+
+# Quick Installation
+
+Apabila kamu tidak ingin menggunakan step diatas, kamu bisa langsung menggunakan cara yang tercantum pada halaman ini [Latest Release](https://github.com/vermaysha/bima-plus/releases/latest)
 
 # Preview
 
