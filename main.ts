@@ -92,67 +92,6 @@ async function main(rl: ReturnType<typeof createInterface>) {
   })
 }
 
-// async function main(rl: ReturnType<typeof createInterface>) {
-//   bimaPlus.getPackages()
-
-//   // rl.question(chalk.gray('\nPilih paket data: '), id => {
-//   //   const pkg = bimaPlus.getPackage(Number.parseInt(id))
-
-//   //   console.log(chalk.bold(chalk.green('\n\t\tDetail Paket Data\n')))
-//   //   console.log(chalk.gray(`Nama\t: `) + chalk.white(pkg.productName))
-//   //   console.log(
-//   //     chalk.gray(`Harga\t: `) + chalk.white(bimaPlus.format(pkg.productPrice))
-//   //   )
-
-//   //   rl.question(
-//   //     '\nApakah kamu yakin ingin membeli paket ini ? [Y/n] ',
-//   //     confirmation => {
-//   //       if (String(confirmation).toUpperCase() === 'Y') {
-//   //         rl.question('\nSilahkan masukkan nomor kartu 3 mu: ', no => {
-//   //           if (no.match(/^(0895|0896|0897|0898|0899)([0-9]+)$$/)) {
-//   //             axios
-//   //               .post('https://bimaplus.tri.co.id/api/v1/login/otp-request', {
-//   //                 imei: 'WebSelfcare',
-//   //                 msisdn: no
-//   //               })
-//   //               .then(res => {
-//   //                 if (res.data.status) {
-//   //                   console.log(
-//   //                     chalk.green(
-//   //                       `Kode OTP Telah dikirimkan ke nomor ${chalk.yellow(
-//   //                         no
-//   //                       )}\n`
-//   //                     )
-//   //                   )
-
-//   //                   rl.question(
-//   //                     'Silahkan masukan Kode OTP yang telah dikirim ',
-//   //                     () => {}
-//   //                   )
-//   //                 } else {
-//   //                   console.log(
-//   //                     chalk.red(
-//   //                       `Kode OTP Gagal dikirimkan ke nomor ${chalk.yellow(
-//   //                         no
-//   //                       )}\n`
-//   //                     )
-//   //                   )
-//   //                   repeat(rl)
-//   //                 }
-//   //               })
-//   //           } else {
-//   //             console.log(chalk.red('\nNomor tidak valid !'))
-//   //             repeat(rl)
-//   //           }
-//   //         })
-//   //       } else {
-//   //         main(rl)
-//   //       }
-//   //     }
-//   //   )
-//   // })
-// }
-
 function repeatToLogin(rl: ReturnType<typeof createInterface>) {
   rl.question('Ulangi Login ? [Y/n] ', answer => {
     if (String(answer).toUpperCase() === 'Y') {
