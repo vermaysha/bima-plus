@@ -22,14 +22,14 @@ Dan lanjutkan menjalankan perintah selanjutnya.
 
 1. `git clone https://github.com/vermaysha/bima-plus.git`
 2. `cd bima-plus`
-3. `npm install`
+3. `npm ci`
 4. `npm run build`
 5. `npm run start`
 
 # Upgrading
 
 1. `git pull`
-2. `npm install`
+2. `npm ci`
 3. `npm run build`
 4. `npm run start`
 
