@@ -5,7 +5,7 @@ import FileStore from './store/fileStore'
 // `axios-cache-adapter` options
 const instanceCache = setupCache({
   store: new FileStore(),
-  maxAge: 10 * 60 * 1000, // 10 Minutes
+  maxAge: 60 * 60 * 1000, // 60 Minutes
   exclude: {
     methods: ['put', 'patch', 'delete']
   }
