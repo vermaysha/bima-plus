@@ -10,7 +10,7 @@ Sebuah aplikasi sederhana dan bebas yang dapat digunakan untuk mendaftarkan pake
 Sangat disarankan untuk menginstall nodejs menggunakan [NVM](https://github.com/nvm-sh/nvm). <br>
 Bagi pengguna android dapat menggunakan termux tetapi **hindari instalasi dari Google Play** karena sudah **outdated**, kamu bisa menginstall menggunakan [F-Droid](https://f-droid.org) atau langsung mendownload dari link berikut [https://f-droid.org/repo/com.termux_118.apk](https://f-droid.org/repo/com.termux_118.apk)
 
-# Android Usage (Termux F-Droid)
+## Android Usage (Termux F-Droid)
 
 1. `pkg update -y`
 2. `pkg install nodejs-lts -y`
@@ -35,7 +35,7 @@ Dan lanjutkan menjalankan perintah selanjutnya.
 
 # Quick Installation
 
-Apabila kamu tidak ingin menggunakan step diatas, kamu bisa langsung menggunakan cara yang tercantum pada halaman ini [Latest Release](https://github.com/vermaysha/bima-plus/releases/latest)
+Apabila kamu tidak ingin menggunakan step diatas, kamu bisa langsung menggunakan cara yang tercantum pada halaman ini [Latest Release](https://github.com/vermaysha/bima-plus/releases/latest), pastikan [Requirement](#requirement) system sudah terpenuhi.
 
 # Preview
 
