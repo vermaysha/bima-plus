@@ -4,11 +4,19 @@ Sebuah aplikasi sederhana dan bebas yang dapat digunakan untuk mendaftarkan pake
 
 # Requirement
 
-1. NodeJS>=16
+1. `NodeJS >= v16`
+2. `Git`
 
 # Installation
 
 1. `git clone https://github.com/vermaysha/bima-plus.git`
+2. `npm install`
+3. `npm run build`
+4. `npm run start`
+
+# Upgrading
+
+1. `git pull`
 2. `npm install`
 3. `npm run build`
 4. `npm run start`
