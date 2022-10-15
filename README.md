@@ -7,6 +7,17 @@ Sebuah aplikasi sederhana dan bebas yang dapat digunakan untuk mendaftarkan pake
 1. `NodeJS >= v16`
 2. `Git`
 
+Sangat disarankan untuk menginstall nodejs menggunakan [NVM](https://github.com/nvm-sh/nvm). <br>
+Bagi pengguna android dapat menggunakan termux tetapi _hindari instalasi dari Google Play_ karena sudah _outdated_, kamu bisa menginstall menggunakan [F-Droid](https://f-droid.org) atau langsung mendownload dari link berikut [https://f-droid.org/repo/com.termux_117.apk](https://f-droid.org/repo/com.termux_118.apk).
+
+# Android Usage (Termux F-Droid)
+
+1. `pkg update -y`
+2. `pkg install nodejs-lts -y`
+3. `pkg install git -y`
+
+Dan lanjutkan menjalankan perintah selanjutnya.
+
 # Installation
 
 1. `git clone https://github.com/vermaysha/bima-plus.git`
