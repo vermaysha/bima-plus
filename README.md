@@ -8,7 +8,7 @@ Sebuah aplikasi sederhana dan bebas yang dapat digunakan untuk mendaftarkan pake
 2. `Git`
 
 Sangat disarankan untuk menginstall nodejs menggunakan [NVM](https://github.com/nvm-sh/nvm). <br>
-Bagi pengguna android dapat menggunakan termux tetapi **hindari instalasi dari Google Play** karena sudah **outdated**, kamu bisa menginstall menggunakan [F-Droid](https://f-droid.org) atau langsung mendownload dari link berikut [https://f-droid.org/repo/com.termux_117.apk](https://f-droid.org/repo/com.termux_118.apk)
+Bagi pengguna android dapat menggunakan termux tetapi **hindari instalasi dari Google Play** karena sudah **outdated**, kamu bisa menginstall menggunakan [F-Droid](https://f-droid.org) atau langsung mendownload dari link berikut [https://f-droid.org/repo/com.termux_118.apk](https://f-droid.org/repo/com.termux_118.apk)
 
 # Android Usage (Termux F-Droid)
 
