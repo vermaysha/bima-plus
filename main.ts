@@ -6,6 +6,13 @@ import * as pkg from './package.json'
 console.log(chalk.bold(chalk.green('\t\tSELAMAT DATANG\n')))
 console.log(chalk.gray(`Name\t:`) + chalk.white(' Bima+ Package Injector'))
 console.log(chalk.gray(`Version :`) + chalk.white(` ${pkg.version}\n`))
+console.log(
+  chalk.bold(
+    chalk.red(
+      'APLIKASI INI BERSIFAT BEBAS DAN TIDAK DIPUNGUT BIAYA !\nDILARANG MENJUAL KEMBALI APLIKASI INI !\n'
+    )
+  )
+)
 
 const rl = createInterface({
   input: process.stdin,
@@ -13,12 +20,16 @@ const rl = createInterface({
 })
 
 rl.on('close', () => {
+  console.log(chalk.bold(chalk.cyan('\n\n\t\tTerima Kasih\n\n')))
+  console.log(chalk.gray('Sudah Menggunakan Aplikasi Bima+ Package Injector'))
+  console.log(`${chalk.gray('Author')}\t : ${chalk.green('Ashary Vermaysha')}`)
+  console.log(`${chalk.gray('Whatsapp')} : ${chalk.green('0895346266988')}`)
   console.log(
-    `\n${chalk.bold(chalk.cyan('\t\tTerima Kasih'))}\n${chalk.gray(
-      'Sudah Menggunakan Aplikasi Bima+ Package Injector'
-    )}\n${chalk.gray('Author')}: ${chalk.green(
-      'Ashary Vermaysha'
-    )}\n${chalk.gray('Whatsapp')}: ${chalk.green('0895346266988')}`
+    chalk.bold(
+      chalk.red(
+        '\nAPLIKASI INI BERSIFAT BEBAS DAN TIDAK DIPUNGUT BIAYA !\nDILARANG MENJUAL KEMBALI APLIKASI INI !'
+      )
+    )
   )
 })
 
