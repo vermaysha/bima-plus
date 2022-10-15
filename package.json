@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build": "tsc --build",
-    "start": "node build/main.js",
+    "start": "[ -f build/main.js ] && node build/main.js || node main.js",
     "lint": "eslint --ext .js,.ts .",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
   },
