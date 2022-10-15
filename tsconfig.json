@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["ES6"],
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
+}
