@@ -2,7 +2,7 @@
 
 Sebuah aplikasi sederhana dan bebas yang dapat digunakan untuk mendaftarkan paket data kartu tri.
 
-# Requirement
+## Requirement
 
 1. `NodeJS >= v16`
 2. `Git`
@@ -18,7 +18,7 @@ Bagi pengguna android dapat menggunakan termux tetapi **hindari instalasi dari G
 
 Dan lanjutkan menjalankan perintah selanjutnya.
 
-# Install from source
+## Install from source
 
 1. `git clone https://github.com/vermaysha/bima-plus.git`
 2. `cd bima-plus`
@@ -26,22 +26,22 @@ Dan lanjutkan menjalankan perintah selanjutnya.
 4. `npm run build`
 5. `npm run start`
 
-# Upgrading
+## Upgrading
 
 1. `git pull`
 2. `npm ci`
 3. `npm run build`
 4. `npm run start`
 
-# Quick Installation
+## Quick Installation
 
 Apabila kamu tidak ingin menggunakan step diatas, kamu bisa langsung menggunakan cara yang tercantum pada halaman ini [Latest Release](https://github.com/vermaysha/bima-plus/releases/latest), pastikan [Requirement](#requirement) system sudah terpenuhi.
 
-# Preview
+## Preview
 
 ![Preview](preview.png)
 
-# LICENSE
+## LICENSE
 
 Copyright 2022 Ashary Vermaysha
 
