@@ -12,10 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-
+      - uses: actions/checkout@v3
       - name: Use Node.js 16.x
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@3
         with:
           node-version: 16.x
           cache: 'npm'
@@ -30,5 +29,4 @@ jobs:
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.0
         with:
-          path: build
-          retention-days: 90
+          path: build/
